@@ -1,0 +1,316 @@
+{
+    "carreras":[
+        {
+            "name":"Salud y Biologia",
+            "id":"sb"
+        },
+        {
+            "name":"Turismo, Ciencias Sociales y Educacion",
+            "id":"tcse"
+        },
+        {
+            "name":"Artes y Humanidades",
+            "id":"ah"
+        },
+        {
+            "name":"Agricultura, Ganadería, Pesca y Alimentación",
+            "id":"agpa"
+        },
+        {
+            "name":"Física, Química y Matemáticas",
+            "id":"fqm"
+        },
+        {
+            "name":"Periodismo y Comunicación Audiovisual",
+            "id":"pca"
+        },
+        {
+            "name":"Economía, Derecho, y Ciencias Jurídicas",
+            "id":"edcj"
+        },
+        {
+            "name":"Ciencias Políticas",
+            "id":"cp"
+        },
+        {
+            "name":"Ocio y Deportes",
+            "id":"oc"
+        }
+    ],
+    "saludBiologia":[
+        {
+            "name":"Medico General",
+            "id":"medG"
+        },
+        {
+            "name":"Medico Cirujano",
+            "id":"medC"
+        },
+        {
+            "name":"Medico Cirujano Partero",
+            "id":"medCP"
+        },
+        {
+            "name":"Medico Oftalmologo",
+            "id":"medO"
+        },
+        {
+            "name":"Biologio Marino",
+            "id":"bioM"
+        }
+    ],
+    "turismoSocialesEducacion":[
+        {
+            "name":"Recepcionista",
+            "id":"rec"
+        },
+        {
+            "name":"Reportero",
+            "id":"rep"
+        },
+        {
+            "name":"Maestro de Español",
+            "id":"maeE"
+        }
+    ],
+    "artesHumanidades":[
+        {
+            "name":"Escultor",
+            "id":"esc"
+        }
+    ],
+    "agriculturaGanaderiaPescaAlimentacion":[
+        {
+            "name":"Inspector de Calidad",
+            "id":"igc"
+        },
+        {
+            "name":"Capitan de Embarcacion",
+            "id":"capE"
+        }
+    ],
+    "fisicaQuimicaMatematicas":[
+        {
+            "name":"Data Science",
+            "id":"dat"
+        },
+        {
+            "name":"Laboratorista",
+            "id":"lab"
+        },
+        {
+            "name":"Maestro de Fisica",
+            "id":"maeF"
+        }
+    ],
+    "periodismoComunicacion":[
+        {
+            "name":"Locutor",
+            "id":"loc"
+        },
+        {
+            "name":"Presentador",
+            "id":"pres"
+        }
+    ],
+    "economiaDerechoCienciasJuridicas":[
+        {
+            "name":"Economista",
+            "id":"eco"
+        },
+        {
+            "name":"Abogado Fiscalista",
+            "id":"aboF"
+        }
+    ],
+    "cienciasPoliticas":[
+        {
+            "name":"Politologo",
+            "id":"pol"
+        }
+    ],
+    "ocioDeportes":[
+        {
+            "name":"LOL Top Laner",
+            "id":"ltp"
+        },
+        {
+            "name":"Maestro de Educacion Fisica",
+            "id":"mef"
+        }
+    ],
+    "informacion":[
+        {
+            "id":1,
+            "dato":"El 63% de los mexicanos ha perdido un empleo por no saber ingles.",
+            "fuente":"Forbes.com"
+        },
+        {
+            "id":2,
+            "dato":"El 75% de los mexicanos bilingues han tenido mayores oportunidades de conseguir un mejor trabajo.",
+            "fuente":"El Universal.com"
+        },
+        {
+            "id":3,
+            "dato":"50% de los profesionistas considera el infles como requisito impresindible para la busqueda de empleo.",
+            "fuente":"Occ.com"
+        },
+        {
+            "id":4,
+            "dato":"El 88,9% de las ofertas de trabajo en España exigen el inglés como idioma prioritario.",
+            "fuente":"newlink.es"
+        }
+    ],
+    "entrevista":[
+        {
+            "id":"medG",
+            "pregunta1":"what is your medical experience?",
+            "pregunta2":"whats the actual date?",
+            "pregunta3":"whats new",
+            "pregunta4":"whats up"
+        },
+        {
+            "id":"medCir",
+            "pregunta1":"quien sos?",
+            "pregunta2":"hola tu",
+            "pregunta3":"jelou",
+            "pregunta4":"hey"
+        },
+        {
+            "id":"medCp",
+            "pregunta1":"quien soy?",
+            "pregunta2":"jeje",
+            "pregunta3":"este",
+            "pregunta4":"nel"
+        },
+        {
+            "id":"medOf",
+            "pregunta1":"que miras",
+            "pregunta2":"que observas",
+            "pregunta3":"que wachas",
+            "pregunta4":"que lookeas"
+        },
+        {
+            "id":"bioMa",
+            "pregunta1":"que miras 2",
+            "pregunta2":"que observas 2",
+            "pregunta3":"que wachas 2",
+            "pregunta4":"que lookeas 2"
+        },
+        {
+            "id":"recep",
+            "pregunta1":"que miras 3",
+            "pregunta2":"que observas 3",
+            "pregunta3":"que wachas 3",
+            "pregunta4":"que lookeas 3"
+        },
+        {
+            "id":"repor",
+            "pregunta1":"que miras 4",
+            "pregunta2":"que observas 4",
+            "pregunta3":"que wachas 4",
+            "pregunta4":"que lookeas 4"
+        },
+        {
+            "id":"maeEs",
+            "pregunta1":"que miras 5",
+            "pregunta2":"que observas 5",
+            "pregunta3":"que wachas 5",
+            "pregunta4":"que lookeas 5"
+        },
+        {
+            "id":"escul",
+            "pregunta1":"que miras 6",
+            "pregunta2":"que observas 6",
+            "pregunta3":"que wachas 6",
+            "pregunta4":"que lookeas 6"
+        },
+        {
+            "id":"inspecCal",
+            "pregunta1":"que miras 7",
+            "pregunta2":"que observas 7",
+            "pregunta3":"que wachas 7",
+            "pregunta4":"que lookeas 7"
+        },
+        {
+            "id":"capEm",
+            "pregunta1":"que miras 8",
+            "pregunta2":"que observas 8",
+            "pregunta3":"que wachas 8",
+            "pregunta4":"que lookeas 8"
+        },
+        {
+            "id":"dataS",
+            "pregunta1":"que miras 9",
+            "pregunta2":"que observas 9",
+            "pregunta3":"que wachas 9",
+            "pregunta4":"que lookeas 9"
+        },
+        {
+            "id":"lab",
+            "pregunta1":"que miras 10",
+            "pregunta2":"que observas 10",
+            "pregunta3":"que wachas 10",
+            "pregunta4":"que lookeas 10"
+        },
+        {
+            "id":"maeF",
+            "pregunta1":"que miras 11",
+            "pregunta2":"que observas 11",
+            "pregunta3":"que wachas 11",
+            "pregunta4":"que lookeas 11"
+        },
+        {
+            "id":"loc",
+            "pregunta1":"que miras 12",
+            "pregunta2":"que observas 12",
+            "pregunta3":"que wachas 12",
+            "pregunta4":"que lookeas 12"
+        },
+        {
+            "id":"pres",
+            "pregunta1":"que miras 13",
+            "pregunta2":"que observas 13",
+            "pregunta3":"que wachas 13",
+            "pregunta4":"que lookeas 13"
+        },
+        {
+            "id":"eco",
+            "pregunta1":"que miras 14",
+            "pregunta2":"que observas 14",
+            "pregunta3":"que wachas 14",
+            "pregunta4":"que lookeas 14"
+        },
+        {
+            "id":"aboFis",
+            "pregunta1":"que miras 15",
+            "pregunta2":"que observas 15",
+            "pregunta3":"que wachas 15",
+            "pregunta4":"que lookeas 15"
+        },
+        {
+            "id":"poli",
+            "pregunta1":"que miras 16",
+            "pregunta2":"que observas 16",
+            "pregunta3":"que wachas 16",
+            "pregunta4":"que lookeas 16"
+        },
+        {
+            "id":"topL",
+            "pregunta1":"que miras 17",
+            "pregunta2":"que observas 17",
+            "pregunta3":"que wachas 17",
+            "pregunta4":"que lookeas 17"
+        },
+        {
+            "id":"maeEd",
+            "pregunta1":"que miras 18",
+            "pregunta2":"que observas 18",
+            "pregunta3":"que wachas 18",
+            "pregunta4":"que lookeas 18"
+        }
+    ]
+    
+    
+    
+}
