@@ -13,29 +13,44 @@
     <title>Document</title>
 </head>
 <body>
-    
-    <nav class="navbar sticky-top navbar-light bg-light">
-        <div id="hola"></div>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <div id="hola"></div>
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link disabled">Disabled</a>
+            </div>
+          </div>
+        </div>
       </nav>
-    <div class="bienvenida">
-        <div class="datosIngles" id="datosDeIngles"></div>
-        <div class="resumen">Una manera facil y rapida de prepararte para tus proximas entrevistas</div>
-        <button class="btn btn-primary" onclick=botonesInicio()>prueba</button>
+    <div class="contenedor">
+        <div class="bienvenida">
+            <div class="datosIngles" id="datosDeIngles"></div>
+            <div class="resumen">Una manera facil y rapida de prepararte para tus proximas entrevistas.</div>
+            <button class="btn btn-primary" onclick=botonesInicio()>Inicia</button>
     </div>
-    <div class="backContainer">
+        <img src="/img/business,-entrepreneurship-and-growth.png" alt="" srcset="" class="imgIlustracion">
+        <div class="backContainer">
+        </div>
+        <div class="buttons d-none">
+            <button class="fill slide" role="button" id="sb"><div>Salud y Biología</div><i class="icon-arrow-right"></i></button>
+            <button class="fill slide" role="button" id="tcse"><div>Turismo, Ciencias Sociales y Educación</div><i class="icon-arrow-right"></i></button>
+            <button class="fill slide" role="button" id="ah"><div>Artes y Humanidades</div><i class="icon-arrow-right"></i></button>
+            <button class="fill slide" role="button" id="agpa"><div>Agricultura, Ganadería, Pesca y Alimentación</div><i class="icon-arrow-right"></i></button>
+            <button class="fill slide" role="button" id="fqm"><div>Física, Química y Matemáticas</div><i class="icon-arrow-right"></i></button>
+            <button class="fill slide" role="button" id="pca"><div>Periodismo y Comunicación Audiovisual</div><i class="icon-arrow-right"></i></button>
+            <button class="fill slide" role="button" id="edcj"><div>Economía, Derecho, y Ciencias Jurídicas</div><i class="icon-arrow-right"></i></button>
+            <button class="fill slide" role="button" id="cp"><div>Ciencias Políticas</div><i class="icon-arrow-right"></i></button>
+            <button class="fill slide" role="button" id="od"><div>Ocio y Deportes</div><i class="icon-arrow-right"></i></button>
+        </div>-->
     </div>
-    
-    <div class="buttons d-none">
-        <button class="fill slide" role="button" id="sb"><div>Salud y Biología</div><i class="icon-arrow-right"></i></button>
-        <button class="fill slide" role="button" id="tcse"><div>Turismo, Ciencias Sociales y Educación</div><i class="icon-arrow-right"></i></button>
-        <button class="fill slide" role="button" id="ah"><div>Artes y Humanidades</div><i class="icon-arrow-right"></i></button>
-        <button class="fill slide" role="button" id="agpa"><div>Agricultura, Ganadería, Pesca y Alimentación</div><i class="icon-arrow-right"></i></button>
-        <button class="fill slide" role="button" id="fqm"><div>Física, Química y Matemáticas</div><i class="icon-arrow-right"></i></button>
-        <button class="fill slide" role="button" id="pca"><div>Periodismo y Comunicación Audiovisual</div><i class="icon-arrow-right"></i></button>
-        <button class="fill slide" role="button" id="edcj"><div>Economía, Derecho, y Ciencias Jurídicas</div><i class="icon-arrow-right"></i></button>
-        <button class="fill slide" role="button" id="cp"><div>Ciencias Políticas</div><i class="icon-arrow-right"></i></button>
-        <button class="fill slide" role="button" id="od"><div>Ocio y Deportes</div><i class="icon-arrow-right"></i></button>
-    </div>-->
 </body>
 <script src="/js/main.js"></script>
 <script src=https://code.jquery.com/jquery-3.2.1.slim.min.js integrity=sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN crossorigin=anonymous></script>

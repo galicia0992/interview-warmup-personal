@@ -12,6 +12,7 @@ const fill = document.querySelector(".fill")
 const backContainer = document.querySelector(".backContainer")
 const bienvenida = document.querySelector(".bienvenida")
 const datosDeIngles = document.querySelector("#datosDeIngles")
+const imgIlustracion = document.querySelector(".imgIlustracion")
 
 
 
@@ -26,7 +27,7 @@ cp.addEventListener("click", cienciasPoliticas)
 od.addEventListener("click", ocioDeportes)
 
 function botonesInicio(){
-    
+    imgIlustracion.classList.add("d-none")
     buttons.classList.remove("d-none")
     bienvenida.classList.add("d-none")
     console.log("a")
@@ -361,7 +362,7 @@ buttons.insertAdjacentHTML("afterend", `<div class="modal fade" id="form" tabind
                 <h3>Estas Lista/o</h3>
                 <i class="fa fa-bell"></i>
                 <p class="r3 px-md-5 px-sm-1 w-100">Contesta todas las preguntas lo mejor que puedas</p>
-                <div class="text-center mb-3 w-100"> <button class="btn btn-primary w-50 rounded-pill b1" onclick=siguiente("medC")>Iniciar</button> </div>
+                <div class="text-center mb-3 w-100"> <button class="btn btn-primary w-50 rounded-pill b1" onclick=siguiente("medCir")>Iniciar</button> </div>
             <a href="#">Not now</a>
         </div>
     </div>`)
@@ -388,7 +389,7 @@ buttons.insertAdjacentHTML("afterend", `<div class="modal fade" id="form" tabind
                 <h3>Estas Lista/o</h3>
                 <i class="fa fa-bell"></i>
                 <p class="r3 px-md-5 px-sm-1 w-100">Contesta todas las preguntas lo mejor que puedas</p>
-                <div class="text-center mb-3 w-100"> <button class="btn btn-primary w-50 rounded-pill b1" onclick=siguiente("medCP")>Iniciar</button> </div>
+                <div class="text-center mb-3 w-100"> <button class="btn btn-primary w-50 rounded-pill b1" onclick=siguiente("medCp")>Iniciar</button> </div>
             <a href="#">Not now</a>
         </div>
     </div>`)
